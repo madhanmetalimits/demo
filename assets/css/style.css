@@ -1910,3 +1910,14 @@ section {
   text-decoration: none;
   cursor: pointer;
 }
+
+.whatsapp-image {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  z-index: 999;
+  /* padding: 10px; */
+}
