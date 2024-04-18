@@ -472,6 +472,24 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+
+.hero {
+  max-width: 130%;
+}
+
+.tech-img-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-big {
+  max-width: 90% !important;
+}
+
+.img-lang{
+  max-width: 75% !important;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -510,7 +528,7 @@ h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 100%;
   }
 
   #hero .btn-get-started {
@@ -1847,6 +1865,7 @@ section {
 .row-content {
   display: flex;
   margin: 20px;
+  height: 150px;
 }
 
 .program-content {
@@ -1854,6 +1873,43 @@ section {
   padding: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.program-img {
+  width: auto;
+  height: 50% !important;
+  margin-right: 15px;
+}
+
+.logo-img img {
+  width: 20%;
+}
+
+@media (max-width: 767px) {
+  .row-content {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+  }
+
+  .program-content {
+    width: 100% !important;
+  }
+
+  .program-img { 
+    width: 30% !important;
+  }
+
+  .logo-img img {
+    width: 60%;
+  }
+
+  .tech-img-container {
+    padding: 10px;
+   }
+
 }
 
 .skills-content ul {
